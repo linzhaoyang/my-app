@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { App } from "antd";
 import "antd/dist/reset.css";
 import App2 from "./App";
 import {
@@ -14,9 +13,7 @@ ReactDOM.render(
     transformers={[legacyLogicalPropertiesTransformer]}
     hashPriority="high"
   >
-    <App>
-      <App2 />
-    </App>
+    <App2 />
   </StyleProvider>,
   document.getElementById("root")
 );
